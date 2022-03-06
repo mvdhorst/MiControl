@@ -41,7 +41,7 @@ namespace MiControlGUI
         
         private void trackBrightness1_Scroll(object sender, EventArgs e)
         {
-            Controller.White.SetBrightness(1, trackBrightness1.Value);
+            Controller.White.BrightnessUp(1);
         }
         
         private void btnOn2_Click(object sender, EventArgs e)
@@ -56,7 +56,7 @@ namespace MiControlGUI
         
         private void trackBrightness2_Scroll(object sender, EventArgs e)
         {
-            Controller.White.SetBrightness(2, trackBrightness2.Value);
+            Controller.White.BrightnessUp(2);
         }
 
         private void btnOn3_Click(object sender, EventArgs e)
@@ -71,7 +71,7 @@ namespace MiControlGUI
 
         private void trackBrightness3_Scroll(object sender, EventArgs e)
         {
-            Controller.White.SetBrightness(3, trackBrightness3.Value);
+            Controller.White.BrightnessUp(3);
         }
         
         private void btnOn4_Click(object sender, EventArgs e)
@@ -86,7 +86,7 @@ namespace MiControlGUI
         
         private void trackBrightness4_Scroll(object sender, EventArgs e)
         {
-            Controller.White.SetBrightness(4, trackBrightness4.Value);
+            Controller.White.BrightnessUp(4);
         }
 
         private void btnAmbi_Click(object sender, EventArgs e)
