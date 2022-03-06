@@ -31,62 +31,62 @@ namespace MiControlGUI
         
         private void btnOn1_Click(object sender, EventArgs e)
         {
-            Controller.RGBW.SwitchOn(1);
+            Controller.White.SwitchOn(1);
         }
         
         private void btnOff1_Click(object sender, EventArgs e)
         {
-        	Controller.RGBW.SwitchOff(1);
+        	Controller.White.SwitchOff(1);
         }
         
         private void trackBrightness1_Scroll(object sender, EventArgs e)
         {
-            Controller.RGBW.SetBrightness(1, trackBrightness1.Value);
+            Controller.White.SetBrightness(1, trackBrightness1.Value);
         }
         
         private void btnOn2_Click(object sender, EventArgs e)
         {
-            Controller.RGBW.SwitchOn(2);
+            Controller.White.SwitchOn(2);
         }
         
         private void btnOff2_Click(object sender, EventArgs e)
         {
-        	Controller.RGBW.SwitchOff(2);
+        	Controller.White.SwitchOff(2);
         }
         
         private void trackBrightness2_Scroll(object sender, EventArgs e)
         {
-            Controller.RGBW.SetBrightness(2, trackBrightness2.Value);
+            Controller.White.SetBrightness(2, trackBrightness2.Value);
         }
 
         private void btnOn3_Click(object sender, EventArgs e)
         {
-            Controller.RGBW.SwitchOn(3);
+            Controller.White.SwitchOn(3);
         }
 
         private void btnOff3_Click(object sender, EventArgs e)
         {
-            Controller.RGBW.SwitchOff(3);
+            Controller.White.SwitchOff(3);
         }
 
         private void trackBrightness3_Scroll(object sender, EventArgs e)
         {
-            Controller.RGBW.SetBrightness(3, trackBrightness3.Value);
+            Controller.White.SetBrightness(3, trackBrightness3.Value);
         }
         
         private void btnOn4_Click(object sender, EventArgs e)
         {
-            Controller.RGBW.SwitchOn(4);
+            Controller.White.SwitchOn(4);
         }
         
         private void btnOff4_Click(object sender, EventArgs e)
         {
-        	Controller.RGBW.SwitchOff(4);
+        	Controller.White.SwitchOff(4);
         }
         
         private void trackBrightness4_Scroll(object sender, EventArgs e)
         {
-            Controller.RGBW.SetBrightness(4, trackBrightness4.Value);
+            Controller.White.SetBrightness(4, trackBrightness4.Value);
         }
 
         private void btnAmbi_Click(object sender, EventArgs e)
